@@ -3,30 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Athrv Beyond</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Web Developer | Designer | AI Enthusiast</p>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Athrv mishra , a passionate web developer building beautiful and functional websites.</p>
+    <div class="container">
+        <h1>Welcome to Athrv Beyond</h1>
+        <p id="tagline">Innovating the Future, Exploring the Universe.</p>
+        <button onclick="changeTagline()" class="btn">Change Tagline</button>
+        <a href="mailto:shuklaastbhuja7@gmail.com" class="btn">Contact Me</a>
+    </div>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-category">
+            <h3>🚀 Computer Science & AI</h3>
+            <ul>
+                <li>Computer Science (Programming & AI)</li>
+                <li>Data Analytics & Machine Learning</li>
+                <li>Ethical Hacking & Cybersecurity</li>
+                <li>Full-Stack Web Development</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>🌌 Space & Astronomy</h3>
+            <ul>
+                <li>Astronomy & Astrophysics</li>
+                <li>Cosmology & Space Research</li>
+                <li>Aerospace & Aeronautical Engineering</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>🌍 Earth & Research Sciences</h3>
+            <ul>
+                <li>Geology & Earth Sciences</li>
+                <li>Climate & Environmental Research</li>
+                <li>Scientific Exploration & Research</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>🌟 Mission-Oriented Skills</h3>
+            <ul>
+                <li>Social Entrepreneurship</li>
+                <li>NGO & Community Development</li>
+                <li>Policy Making & Impact Research</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Project 1 - <a href="#">View</a></li>
-            <li>Project 2 - <a href="#">View</a></li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>Contact: yourname@example.com</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
