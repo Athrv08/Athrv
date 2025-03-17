@@ -1,9 +1,9 @@
-// Show alert on button click
-document.getElementById("showMessage").addEventListener("click", function() {
-    alert("Here are my projects! (Feature coming soon)");
-});
-
-// Dark mode toggle
-document.getElementById("toggle-dark-mode").addEventListener("click", function() {
-    document.body.classList.toggle("dark-mode");
-});
+function changeTagline() {
+    const taglines = [
+        "Science, Technology & Ethics – Building a Better Tomorrow.",
+        "Innovating the Future, Exploring the Universe.",
+        "From Cosmos to Code – Engineering the Impossible."
+    ];
+    let randomTagline = taglines[Math.floor(Math.random() * taglines.length)];
+    document.getElementById("tagline").innerText = randomTagline;
+}
