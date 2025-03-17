@@ -29,17 +29,19 @@ h1 {
     background: #ffaa00;
 }
 
-/* Skills Section */
-.skills {
+/* Section Styling */
+section {
     background-color: #1e1e1e;
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px auto;
     border-radius: 10px;
+    width: 80%;
 }
-.skills h2 {
+h2 {
     color: #ffcc00;
-    margin-bottom: 10px;
 }
+
+/* Skills */
 .skill-category {
     margin-top: 15px;
 }
@@ -52,6 +54,28 @@ h1 {
     padding: 0;
 }
 .skill-category li {
+    font-size: 16px;
+    padding: 5px;
+    border-bottom: 1px solid #444;
+}
+
+/* Projects */
+.project-item {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #222;
+}
+.project-item h3 {
+    color: #ffcc00;
+}
+
+/* Missions */
+.missions ul {
+    list-style: none;
+    padding: 0;
+}
+.missions li {
     font-size: 16px;
     padding: 5px;
     border-bottom: 1px solid #444;
